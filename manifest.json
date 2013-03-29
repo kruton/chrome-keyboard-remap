@@ -1,0 +1,21 @@
+{
+   "manifest_version": 2,
+   "name": "Keyboard Remapper",
+   "description": "Keyboard Remapper",
+   "version": "1.0.3",
+   "background": {
+      "page": "background.html"
+   },
+   "icons": {
+      "128": "icon128.png"
+   },
+   "permissions": [ "input" ],
+   "input_components": [ {
+      "description": "Keyboard Remapper",
+      "id": "kbdremap",
+      "language": "en",
+      "layouts": [ "en" ],
+      "name": "Keyboard Remapper",
+      "type": "ime"
+   } ]
+}
